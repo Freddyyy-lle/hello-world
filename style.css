@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Google-September-2015-Regular;
+  src: url(fonts/Google-September-2015-Regular.ttf.woff);
+}
+
+body{
+  font-family: arial, sans-serif;
+  color: #202124;
+  font-size: 14px;
+
+}
+
+a:link{
+  text-decoration: none;
+  color: #202124;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #202124;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 40px;
+  width: auto;
+  border: 2px solid red;
+}
+
+.menu_element1{
+  padding: 10px 8px 0 8px;
+  border: 2px solid blue;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.menu_element2{
+  padding: 8px 20px 0 20px;
+  border-radius: 3px;
+  text-decoration: white;
+  background-color: blue;
+  border: 2px solid green;
+  text-align: center;
+
+}
+
+.bt_connection{
+  background-color: blue;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  text-decoration: white;
+}
+
+//buton:over{
+  background-color: red;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  text-decoration: white;
+
+}
+
+span{
+  margin: 0 10px 0 10px;
+}
+
+span:hover{
+  background: url('images/button_dots_hover.png');
+}
+
+.centre{
+  border: 1px solid gray;
+  width: 500px;
+  margin: 200px auto;
+
+  text-align: center;
+}
+
+.search{
+  margin: 200px;
+}
+
+.menu_recherche{
+  display: flex;
+  justify-content: space-around;
+}

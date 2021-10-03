@@ -1,9 +1,4 @@
-@font-face {
-  font-family: Google-September-2015-Regular;
-  src: url(fonts/Google-September-2015-Regular.ttf.woff);
-}
-
-body{
+body {
   font-family: arial, sans-serif;
   color: #202124;
   display: flex;
@@ -11,20 +6,20 @@ body{
   align-content: space-between;
   font-size: 14px;
   width: 100%;
-
+  margin: 0;
 }
 
-a:link{
+a:link {
   text-decoration: none;
   color: #202124;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: #202124;
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
@@ -33,14 +28,13 @@ a:hover{
   margin-right: 40px;
 }
 
-.menu_element1{
+.menu_element1 {
   padding: 10px 8px 0 8px;
   text-align: center;
   vertical-align: middle;
-
 }
 
-.menu_element2{
+.menu_element2 {
   padding: 8px 20px 0 20px;
   border-radius: 3px;
   text-decoration: white;
@@ -49,28 +43,32 @@ a:hover{
   text-align: center;
 }
 
-.bt_connection{
+.bt_connection {
   background-color: rgb(89, 99, 250);
   padding: 0 20px 0 20px;
   border-radius: 5px;
   text-decoration: none;
 }
 
-.bt_connection:hover{
+.bt_connection a {
+  color: white;
   text-decoration: none;
-  box-shadow: 0 0 1px blue;
 }
 
+.bt_connection:hover {
+  text-decoration: none;
+  box-shadow: 0 0 3px blue;
+}
 
-span{
+span {
   margin: 0 10px 0 10px;
 }
 
-span:hover{
-  background: url('images/button_dots_hover.png');
+span:hover {
+  background: url("images/button_dots_hover.png");
 }
 
-.centre{
+.centre {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,73 +79,69 @@ span:hover{
   text-align: center;
 }
 
-.input-box 
-{
-    width:  580px; 
-    height:  40px;
-    border-radius: 40px;
-    outline:  none; 
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #ddd;
-    font-size:  15px; 
+.input-box {
+  width: 580px;
+  height: 40px;
+  border-radius: 40px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ddd;
+  font-size: 15px;
 }
 
-.input-box:hover{
+.input-box:hover {
   box-shadow: 0 1px 3px gray;
 }
 
-.menu_recherche{
+.menu_recherche {
   display: flex;
   justify-content: space-around;
   width: 400px;
 }
 
-.bt_recherche{
+.bt_recherche {
   width: 150px;
   height: 30px;
-  outline:  none; 
+  outline: none;
   border: none;
 }
 
-.bt_recherche:hover{
+.bt_recherche:hover {
   box-shadow: 0 0 2px black;
 }
 
-
-footer{
+footer {
+  box-sizing: border-box;
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   padding: 15px;
 }
 
-.ft_france{
+.ft_france {
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: 70757a;
 }
 
-.ft_niv1{
+.ft_niv1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.ft_niv2{
+.ft_niv2 {
   display: flex;
   justify-content: space-around;
-
 }
 
-.ft_niv3{
+.ft_niv3 {
   padding: 10px;
   display: inline-block;
-
 }
 
-.ft_niv4{
+.ft_niv4 {
   padding: 10px;
   display: inline-block;
-
 }
